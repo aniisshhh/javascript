@@ -13,7 +13,16 @@ const anotherID = Symbol('123')
 
 //reference(Non premitive)
 //Array, object, Function
+const heroes = ["shaktiman", "iroman"];
+
+let myobj = {
+    name: "anish",
+    age: 20,
+}
+
+
+ 
 const myFunction =function(){
     console.log("hello world")
 }
-console.log(typeof bigNumber)
+console.log(typeof myobj)
