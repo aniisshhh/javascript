@@ -25,3 +25,7 @@ console.log(Math.min(12,33,44,58,57));
 console.log(Math.max(22,33,44,55,66,77));
 console.log(Math.random()); // any random value between 0 and 1
 console.log(Math.random()*10 +1);
+
+const min = 10
+const max = 20
+console.log(Math.floor(Math.random()* (max-min + 1)) + min)
