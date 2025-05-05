@@ -41,3 +41,21 @@ const user = [
 
     }
 ]
+
+
+
+
+const course = {
+    courseName : "JS in Hindi",
+    coursePrice : "999",
+    courseInstructure : "Hitsh",
+}
+//course.courseInstructure
+const{courseInstructure : instructure} = course // here we are de valuing courseinstructure into instructure
+console.log(instructure)
+
+{
+    "name" : "anish",
+    "coursename" : "js in hindi",
+    "price" : "free"
+}
